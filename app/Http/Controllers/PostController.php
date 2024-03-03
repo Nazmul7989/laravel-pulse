@@ -14,7 +14,7 @@ class PostController extends Controller
     {
         $posts = Post::paginate(12);
 
-        return view('posts',compact('posts'));
+        return view('posts', compact('posts'));
     }
 
     /**
